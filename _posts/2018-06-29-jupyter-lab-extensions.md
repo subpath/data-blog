@@ -38,7 +38,7 @@ jupyter labextension install @jupyterlab/latex
 ### Usage:
 
 You will need to create text file, change it extension to .tex, then inside this file choose Show LaTeX Preview using mouse right-click
-![JupyterLabLaTeX](/assets/2018-06-29-jupyter-lab-extensions/JupyterLabLaTeX.png)
+![JupyterLabLaTeX]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabLaTeX.png)
 
 ## JupyterLab HTML
 
@@ -53,7 +53,7 @@ jupyter labextension install @mflevine/jupyterlab_html
 ### Usage:
 
 Simply click on html file to open it
-![JupyterLabHTML](/assets/2018-06-29-jupyter-lab-extensions/JupyterLabHTML.gif)
+![JupyterLabHTML]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabHTML.gif)
 
 ## JupyterLab drawio
 
@@ -68,7 +68,7 @@ jupyter labextension install jupyterlab-drawio
 ### Usage:
 
 After installation you will see option to create diagram in your launcher
-![JupyterLabDrawIO](/assets/2018-06-29-jupyter-lab-extensions/JupyterLabDrawIO.png)
+![JupyterLabDrawIO]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabDrawIO.png)
 
 ## JupyterLab plotly
 
@@ -82,7 +82,7 @@ jupyter labextension install @jupyterlab/plotly-extension
 ### Usage:
 
 With this extension your plotly visualization will be rendered directly in a notebook.
-![JupyterLabPlotly](/assets/2018-06-29-jupyter-lab-extensions/JupyterLabPlotly.gif)
+![JupyterLabPlotly]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabPlotly.gif)
 
 ## JupyterLab bokeh
 
