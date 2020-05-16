@@ -4,7 +4,7 @@ title:  "Jupyter Lab extensions for Data Scientist"
 date:   2018-06-29 12:00:00 +0500
 permalink: "/jupyter-lab-extensions/"
 ---
-![jupyter_logo]({{site.baseurl}}/assets/2018-06-29-jupyter-lab-extensions/jupyter-lab-logo.png)
+<center><img src="{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/jupyter-lab-logo.png"></center>
 
 Hi! I wanna share my personal top of Jupyter Lab extensions that I used on a daily basis.
 
