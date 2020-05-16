@@ -59,7 +59,7 @@ Simply click on html file to open it
 
 I really love drawio and used to use it from their web-interface, but with this extension it possible to draw schemes directly from jupyter lab.
 
-Source: https://github.com/QuantStack/jupyterlab-drawio
+Source: [https://github.com/QuantStack/jupyterlab-drawio](https://github.com/QuantStack/jupyterlab-drawio)
 ### Installation:
 ```bash
 jupyter labextension install jupyterlab-drawio
@@ -74,7 +74,7 @@ After installation you will see option to create diagram in your launcher
 
 Plotly is a very cool visualization library that allows to create effective and interactive charts very easily.
 
-Source: https://www.npmjs.com/package/@jupyterlab/plotly-extension
+Source: [https://www.npmjs.com/package/@jupyterlab/plotly-extension](https://www.npmjs.com/package/@jupyterlab/plotly-extension)
 ### Installation:
 ```bash
 jupyter labextension install @jupyterlab/plotly-extension
@@ -88,7 +88,7 @@ With this extension your plotly visualization will be rendered directly in a not
 
 Bokeh is another js based library for interactive visualization
 
-Source: https://github.com/bokeh/jupyterlab_bokeh
+Source: [https://github.com/bokeh/jupyterlab_bokeh](https://github.com/bokeh/jupyterlab_bokeh)
 ### Installation:
 ```bash
 jupyter labextension install jupyterlab_bokeh
@@ -96,7 +96,7 @@ jupyter labextension install jupyterlab_bokeh
 
 ### Usage:
 Same like with plotly
-![JupyterLabBokeh](/assets/2018-06-29-jupyter-lab-extensions/JupyterLabBokeh.gif)
+![JupyterLabBokeh]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabBokeh.gif)
 
 ## Conclusion:
 
