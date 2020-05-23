@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Least Squares GAN "
+title:  "Least Squares GAN"
 date:   2018-09-12 13:18:29 +0500
 permalink: "/least-squares-gan/"
 ---
