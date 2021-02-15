@@ -3,6 +3,11 @@ layout: post
 title:  "Jupyter Hub for a Data Science team"
 date:   2018-09-17 13:18:29 +0500
 permalink: "/jupyter-hub/"
+tags:
+- 
+  name: infrastructure
+  style: primary
+
 ---
 
 ![jupyter-logo]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-07-jupyter-hub-for-a-data-science-team/jupyter-logo.png)

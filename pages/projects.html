@@ -1,0 +1,22 @@
+---
+layout: page
+title: Projects
+subtitle: Things I have worked on.
+description: Alex's projects
+permalink: /projects/
+sitemap:
+  priority: 0.9
+tags: 
+- 
+  name: pudhina fresh theme
+- 
+  name: jekyll theme 
+- 
+  name: jekyll
+---
+
+<div class="card-columns">
+  {% for project in site.data.projects %}
+    {% include post/project_card.html %}
+  {% endfor %}
+</div>
