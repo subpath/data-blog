@@ -4,7 +4,13 @@ title:  "Jupyter Lab extensions for Data Scientist"
 date:   2018-06-29 12:00:00 +0500
 permalink: "/jupyter-lab-extensions/"
 ---
-<center><img src="{{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/jupyter-lab-logo.png"></center>
+
+{:refdef: style="text-align: center;"}
+![jupyter_logo]({{ '/assets/2018-06-29-jupyter-lab-extensions/jupyter-lab-logo.png' | relative_url }})
+{: refdef}
+
+
+
 
 Hi! I wanna share my personal top of Jupyter Lab extensions that I used on a daily basis.
 
@@ -38,7 +44,8 @@ jupyter labextension install @jupyterlab/latex
 ### Usage:
 
 You will need to create text file, change it extension to .tex, then inside this file choose Show LaTeX Preview using mouse right-click
-![JupyterLabLaTeX]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabLaTeX.png)
+
+![JupyterLabLaTeX]({{ '/assets/2018-06-29-jupyter-lab-extensions/JupyterLabLaTeX.png' | relative_url }})
 
 ## JupyterLab HTML
 
@@ -53,7 +60,7 @@ jupyter labextension install @mflevine/jupyterlab_html
 ### Usage:
 
 Simply click on html file to open it
-![JupyterLabHTML]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabHTML.gif)
+![JupyterLabHTML]({{ '/assets/2018-06-29-jupyter-lab-extensions/JupyterLabHTML.gif' | relative_url }})
 
 ## JupyterLab drawio
 
@@ -68,7 +75,7 @@ jupyter labextension install jupyterlab-drawio
 ### Usage:
 
 After installation you will see option to create diagram in your launcher
-![JupyterLabDrawIO]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabDrawIO.png)
+![JupyterLabDrawIO]({{ '/assets/2018-06-29-jupyter-lab-extensions/JupyterLabDrawIO.png' | relative_url }})
 
 ## JupyterLab plotly
 
@@ -82,7 +89,7 @@ jupyter labextension install @jupyterlab/plotly-extension
 ### Usage:
 
 With this extension your plotly visualization will be rendered directly in a notebook.
-![JupyterLabPlotly]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabPlotly.gif)
+![JupyterLabPlotly]({{ '/assets/2018-06-29-jupyter-lab-extensions/JupyterLabPlotly.gif' | relative_url }})
 
 ## JupyterLab bokeh
 
@@ -96,7 +103,7 @@ jupyter labextension install jupyterlab_bokeh
 
 ### Usage:
 Same like with plotly
-![JupyterLabBokeh]({{ site.url }}/{{ site.baseurl }}/assets/2018-06-29-jupyter-lab-extensions/JupyterLabBokeh.gif)
+![JupyterLabBokeh]({{ '/assets/2018-06-29-jupyter-lab-extensions/JupyterLabBokeh.gif' | relative_url }})
 
 ## Conclusion:
 
