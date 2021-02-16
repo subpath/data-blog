@@ -4,13 +4,6 @@ title:  "Markov Chain for music generation"
 date:   2019-07-08 13:18:29 +0500
 permalink: "/markov-chain-for-music/"
 ---
-<p align="center">
-<img src={{ '/assets/2019-07-08-markov-chain-for-music/head.jpeg' | relative_url }} />
-</p>
-
-{:refdef: style="text-align: center;"}
-![head]({{ site.url }}/assets/2019-07-08-markov-chain-for-music/head.jpeg)
-{: refdef}
 
 {:refdef: style="text-align: center;"}
 ![head]({{ '/assets/2019-07-08-markov-chain-for-music/head.jpeg' | relative_url }})
