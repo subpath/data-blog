@@ -5,7 +5,9 @@ date:   2018-09-17 13:18:29 +0500
 permalink: "/jupyter-hub/"
 ---
 
-![jupyter-logo]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-07-jupyter-hub-for-a-data-science-team/jupyter-logo.png)
+{:refdef: style="text-align: center;"}
+![jupyter_logo]({{ '/assets/2018-09-07-jupyter-hub-for-a-data-science-team/jupyter-logo.png' | relative_url }})
+{: refdef}
 
 ## What is Jupyter Hub?
 
@@ -121,11 +123,13 @@ For example, you can setup authentication with GitHub account, simply add two li
 from oauthenticator.github import GitHubOAuthenticatorc.JupyterHub.authenticator_class = GitHubOAuthenticator
 ```
 
-![jupyter-login]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-07-jupyter-hub-for-a-data-science-team/jupyter-login.png)
+![jupyter-login]({{ '/assets/2018-09-07-jupyter-hub-for-a-data-science-team/jupyter-login.png' | relative_url }})
+
 *login screen you will see in Jupyter Hub*
 
 
-![github-login]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-07-jupyter-hub-for-a-data-science-team/github-login.png)
+![github-login]({{ '/assets/2018-09-07-jupyter-hub-for-a-data-science-team/github-login.png' | relative_url }})
+
 *It will redirect you to GitHub sigh in page*
 
 ### There are many different ways to authenticate users:
@@ -148,7 +152,7 @@ from oauthenticator.github import GitHubOAuthenticatorc.JupyterHub.authenticator
 
 In `jupyterhub_config.py` you can setup admin users and they will have access to admin panel, where you can manage other people notebooks.
 
-![jupyter-admin]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-07-jupyter-hub-for-a-data-science-team/jupyter-hub-admin.png)
+![jupyter-admin]({{ '/assets/2018-09-07-jupyter-hub-for-a-data-science-team/jupyter-hub-admin.png' | relative_url }})
 
 ## In conclusion:
 

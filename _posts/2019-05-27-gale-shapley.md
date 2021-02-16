@@ -6,8 +6,9 @@ permalink: "/gale-shapley/"
 ---
 
 {:refdef: style="text-align: center;"}
-![pic-1]({{ site.url }}/{{ site.baseurl }}/assets/2019-05-27-gale-shapley/pic-1.png)
+![plot-1]({{ '/assets/2019-05-27-gale-shapley/pic-1.png' | relative_url }})
 {: refdef}
+
 
 From this article, you will learn about stable pairing or stable marriage problem. You will learn how to solve that problem using [Game Theory](https://en.wikipedia.org/wiki/Game_theory) and the [Gale-Shapley algorithm](https://en.wikipedia.org/wiki/Stable_marriage_problem) in particular. We will use Python to create our own solution using theorem from the original paper from 1962.
 

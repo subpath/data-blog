@@ -11,15 +11,15 @@ Least Squares GAN is similar to [DCGAN](https://medium.com/cindicator/introducti
 
 So the loss functions look like this:
 
-![formula-1]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-12-least-squares-gan/formula-1.png)
+![formula-1]({{ '/assets/2018-09-12-least-squares-gan/formula-1.png' | relative_url }})
 
 *Discriminator loss function*
 
-![formula-2]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-12-least-squares-gan/formula-2.png)
+![formula-2]({{ '/assets/2018-09-12-least-squares-gan/formula-2.png' | relative_url }})
 
 *Generator loss function*
 
-![picture-1]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-12-least-squares-gan/picture-1.png)
+![picture-1]({{ '/assets/2018-09-12-least-squares-gan/picture-1.png' | relative_url }})
 
 *The illustrations of different behaviors of two loss functions. (a) Decision boundaries of two loss functions. Note that the decision boundary should go across the real data distribution for successful GANs learning. Otherwise, the learning process is saturated. (b) The decision boundary of the sigmoid cross entropy loss function. It gets very small errors for the fake samples (in magenta) for updating G as they are on the correct side of the decision boundary. From the [original paper](https://arxiv.org/pdf/1611.04076.pdf).*
 
@@ -30,7 +30,7 @@ I made LSGAN implementation with PyTorch, the code can be found on my [GitHub](h
 I’ve tried to generate emoji and got pretty creepy results, especially if you look on the smiley face.
 
 {:refdef: style="text-align: center;"}
-![gan-emoji]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-12-least-squares-gan/gan-emoji.gif)
+![gan-emoji]({{ '/assets/2018-09-12-least-squares-gan/gan-emoji.gif' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}

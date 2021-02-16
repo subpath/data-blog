@@ -6,7 +6,7 @@ permalink: "/monty-hall-paradox-simulation/"
 ---
 
 {:refdef: style="text-align: center;"}
-![head]({{ site.url }}/{{ site.baseurl }}/assets/2018-12-19-monty-hall-paradox-simulation/head.png)
+![head]({{ '/assets/2018-12-19-monty-hall-paradox-simulation/head.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -39,8 +39,9 @@ Let’s use the Bayesian formula to solve this!
 
 
 {:refdef: style="text-align: center;"}
-![formula-1]({{ site.url }}/{{ site.baseurl }}/assets/2018-12-19-monty-hall-paradox-simulation/formula-1.png)
+![formula-1]({{ '/assets/2018-12-19-monty-hall-paradox-simulation/formula-1.png' | relative_url }})
 {: refdef}
+
 ```
 where p(H) — a probability of the hypothesis before getting new data D — prior,
 
@@ -56,7 +57,7 @@ We have 3 hypotheses A, B, and C, represent that prize behind door 1, 2, or 3. H
 Let’s create a table.
 
 {:refdef: style="text-align: center;"}
-![table-1]({{ site.url }}/{{ site.baseurl }}/assets/2018-12-19-monty-hall-paradox-simulation/table-1.png)
+![table-1]({{ '/assets/2018-12-19-monty-hall-paradox-simulation/table-1.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -75,7 +76,7 @@ So far so go! Now, let’s think about likelihood.
 
 
 {:refdef: style="text-align: center;"}
-![table-2]({{ site.url }}/{{ site.baseurl }}/assets/2018-12-19-monty-hall-paradox-simulation/table-2.png)
+![table-2]({{ '/assets/2018-12-19-monty-hall-paradox-simulation/table-2.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -86,7 +87,7 @@ Next is easy
 
 
 {:refdef: style="text-align: center;"}
-![table-3]({{ site.url }}/{{ site.baseurl }}/assets/2018-12-19-monty-hall-paradox-simulation/table-3.png)
+![table-3]({{ '/assets/2018-12-19-monty-hall-paradox-simulation/table-3.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -106,7 +107,7 @@ So I made a simple experiment to simulate the paradox. You have options to alway
 Below you can find a visualization of the experiment. In a 1000 experiments, I’ve got a 67% chance to win if player changing his initial choice, and only 34% chance to win if I would always keep my initial choice unchanged. Results are very close to the formal solution with the Bayesian formula.
 
 {:refdef: style="text-align: center;"}
-![plot-1]({{ site.url }}/{{ site.baseurl }}/assets/2018-12-19-monty-hall-paradox-simulation/plot-1.gif)
+![plot-1]({{ '/assets/2018-12-19-monty-hall-paradox-simulation/plot-1.gif' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -115,7 +116,7 @@ Below you can find a visualization of the experiment. In a 1000 experiments, I�
 
 
 {:refdef: style="text-align: center;"}
-![plot-2]({{ site.url }}/{{ site.baseurl }}/assets/2018-12-19-monty-hall-paradox-simulation/plot-2.gif)
+![plot-2]({{ '/assets/2018-12-19-monty-hall-paradox-simulation/plot-2.gif' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}

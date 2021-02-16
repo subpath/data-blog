@@ -11,20 +11,21 @@ permalink: "/music-generation-with-deep-learning/"
 
 C-RNN-GAN is a continuous recurrent neural network with adversarial training that contains LSTM cells, therefore it works very well with continuous time series data, for example, music files!
 
-![c-rnn-gan]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-22-music-generation-with-deep-learning/c-rnn-gan.png)
+![c-rnn-gan]({{ '/assets/2018-08-22-music-generation-with-deep-learning/c-rnn-gan.png' | relative_url }})
+
 *Structure of Discriminator and Generator in C-RNN-GAN (picture from original paper)*
 
 ## How C-RNN-GAN works?
 
 C-RNN-GAN is a recurrent neural network with adversarial training. The adversaries are two different deep recurrent neural models, a generator (G) and a discriminator (D). The generator is trained to generate data that is indistinguishable from real data, while the discriminator is trained to identify the generated data. The training becomes a zero-sum game for which the Nash equilibrium is when the generator produces data that the discriminator cannot tell from real data. We define the following loss functions LD and LG:
 
-![formula]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-22-music-generation-with-deep-learning/formula1.png)
+![formula]({{ '/assets/2018-08-22-music-generation-with-deep-learning/formula1.png' | relative_url }})
 
 *where z (i) is a sequence of uniform random vectors in [0, 1] k , and x (i) is a sequence from the training data. k is the dimensionality of the data in the random sequence.*
 
 C-RNN-GAN uses feature matching, an approach to encourage greater variance in G, and avoid overfitting to the current discriminator by replacing the standard generator loss, LG. Normally, the objective for the generator is to maximize the error that the discriminator makes, but with feature matching, the objective is instead to produce an internal representation at some level in the discriminator that matches that of real data.
 
-![c-rnn-gan-loss]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-22-music-generation-with-deep-learning/c-rnn-gan-loss.png)
+![c-rnn-gan-loss]({{ '/assets/2018-08-22-music-generation-with-deep-learning/c-rnn-gan-loss.png' | relative_url }})
 
 *Statistics of generated music from the evaluated models (picture from the original paper)*
 

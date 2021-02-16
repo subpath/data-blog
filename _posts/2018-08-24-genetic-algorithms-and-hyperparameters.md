@@ -41,7 +41,8 @@ Probably the most user-friendly library for genetic hyperparameter tuning.
 **GitHub:** [https://github.com/EpistasisLab/tpot](https://github.com/EpistasisLab/tpot)
 
 
-![tpot]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-24-genetic-algorithms-and-hyperparameters/tpot.gif)
+![tpot]({{ '/assets/2018-08-24-genetic-algorithms-and-hyperparameters/tpot.gif' | relative_url }})
+
 *animation from TPOT GitHub*
 
 First time I used it, it was not obvious to me how to extract the best hyperparameters and write them to some variable. So below is my way of extracting best hyperparameters from TPOT.

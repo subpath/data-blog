@@ -22,21 +22,22 @@ With Google’s release of the Sequence to [Sequence Learning with Neural Networ
 
 There are many different open-source datasets available. Probably the most popular is [Cornell Movie — Dialogs Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html) and I used this dataset too. But for example, a much bigger dataset based on Reddit comments can be found [here](https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/?st=j9udbxta&sh=69e4fee7).
 
-![chatbot-dataset]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/chatbot_dataset.png)
+![chatbot-dataset]({{ '/assets/2018-07-27-building-chatbot-basics/chatbot_dataset.png' | relative_url }})
 
 ### Preparing your data
 
 One of the most challenging thing in NLP for me is data preparation. In order to be recognizable for the Neural Network words needs to be represented as vectors. There are different ways to do that, for example, Gensim, but I used Keras implementation of [TensorFlow’s embedding](https://www.tensorflow.org/tutorials/text/word_embeddings).
 
-![example1]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example1.png)
+![example1]({{ '/assets/2018-07-27-building-chatbot-basics/example1.png' | relative_url }})
+
 
 I loaded data as a list of sentences.
 
-![example2]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example2.png)
+![example2]({{ '/assets/2018-07-27-building-chatbot-basics/example2.png' | relative_url }})
 
 Then I extracted all unique words from the text and assign a unique integer number for each word.
 
-![example3]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example3.png)
+![example3]({{ '/assets/2018-07-27-building-chatbot-basics/example3.png' | relative_url }})
 
 So, as a result, I’ve got a list of lists with encoded words, where each word represents a number. For example, vector `[42, 14, 35, 18]` represents the text: “They do not!” and `[1]` represents “Wow”
 
@@ -86,7 +87,7 @@ checkpoint = ModelCheckpoint(filepath=WEIGHT_FILE_PATH, save_best_only=True)
 tbCallBack = TensorBoard(log_dir=TENSORBOARD, histogram_freq=0, write_graph=True, write_images=True)
 ```
 
-![chatbot_model]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/chatbot_model.png)
+![chatbot_model]({{ '/assets/2018-07-27-building-chatbot-basics/chatbot_model.png' | relative_url }})
 
 ###  Train my model
 
@@ -102,7 +103,7 @@ model.fit_generator(generator=train_gen,
 model.save_weights(WEIGHT_FILE_PATH)
 ```
 
-![loss_function]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/loss_function.png)
+![loss_function]({{ '/assets/2018-07-27-building-chatbot-basics/loss_function.png' | relative_url }})
 
 ### Testing my chatbot!
 
@@ -110,19 +111,19 @@ So the model is trained! I made a class wrapper for it, so it will be more conve
 
 Let’s start with greetings.
 
-![example4]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example4.png)
+![example4]({{ '/assets/2018-07-27-building-chatbot-basics/example4.png' | relative_url }})
 
 Well, I just made this bot, but it’s already depressed.
 
 Let’s try the Turing Test!
 
-![example5]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example5.png)
+![example5]({{ '/assets/2018-07-27-building-chatbot-basics/example5.png' | relative_url }})
 
 Shame, but looks like my bot already did not pass this test.
 
 Let’s try asking the [Ultimate question](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Answer_to_the_Ultimate_Question_of_Life,_the_Universe,_and_Everything_(42))
 
-![example6]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example6.png)
+![example6]({{ '/assets/2018-07-27-building-chatbot-basics/example6.png' | relative_url }})
 
 Wow! Amazing!
 
@@ -130,17 +131,17 @@ But to be honest I hardcoded that one as an easter egg…
 
 Finally, let’s ask some jibberish
 
-![example7]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example7.png)
+![example7]({{ '/assets/2018-07-27-building-chatbot-basics/example7.png' | relative_url }})
 
 That's it! I think it confirms that my bot suffers from depression.
 
 ### Some more examples:
 
-![example8]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example8.png)
+![example8]({{ '/assets/2018-07-27-building-chatbot-basics/example8.png' | relative_url }})
 
-![example9]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example9.png)
+![example9]({{ '/assets/2018-07-27-building-chatbot-basics/example9.png' | relative_url }})
 
-![example10]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-27-building-chatbot-basics/example10.png)
+![example10]({{ '/assets/2018-07-27-building-chatbot-basics/example10.png' | relative_url }})
 
 ## What can be done next?
 
