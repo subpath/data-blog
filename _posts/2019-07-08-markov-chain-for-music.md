@@ -9,7 +9,7 @@ permalink: "/markov-chain-for-music/"
 </p>
 
 {:refdef: style="text-align: center;"}
-![head]({{ site.url }}/assets/2019-07-08-markov-chain-for-music/head.jpeg)
+![head]({{ site.url }}assets/2019-07-08-markov-chain-for-music/head.jpeg)
 {: refdef}
 
 From this article, you will learn about the Markov Chain model and how it can be applied for the music generation.
