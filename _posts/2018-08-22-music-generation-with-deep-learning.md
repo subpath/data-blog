@@ -3,6 +3,13 @@ layout: post
 title:  "Music generation with Deep Learning"
 date:   2018-08-22 12:00:00 +0500
 permalink: "/music-generation-with-deep-learning/"
+tags:
+- 
+  name: GAN
+  style: warning
+-
+  name: ML
+  style: success
 ---
 
 > GAN of the Week is a series of notes about Generative Models, including GANs and Autoencoders. Every week I’ll review a new model to help you keep up with these rapidly developing types of Neural Networks.

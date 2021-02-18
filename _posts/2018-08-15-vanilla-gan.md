@@ -3,7 +3,15 @@ layout: post
 title:  "Vanilla GAN "
 date:   2018-08-15 13:18:29 +0500
 permalink: "/vanilla-gan/"
+tags:
+- 
+  name: GAN
+  style: warning
+-
+  name: ML
+  style: success
 ---
+
 
 For the sake of introduction let’s build the simplest GAN possible using Keras and TensorFlow. But, first…
 

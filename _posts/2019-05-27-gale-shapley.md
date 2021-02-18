@@ -3,7 +3,12 @@ layout: post
 title:  "Gale–Shapley algorithm simply explained"
 date:   2019-05-27 13:18:29 +0500
 permalink: "/gale-shapley/"
+tags:
+- 
+    name: GameTheory
+    style: info
 ---
+
 
 {:refdef: style="text-align: center;"}
 ![plot-1]({{ '/assets/2019-05-27-gale-shapley/pic-1.png' | relative_url }})

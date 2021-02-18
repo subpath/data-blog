@@ -3,6 +3,11 @@ layout: post
 title:  "Markov Chain for music generation"
 date:   2019-07-08 13:18:29 +0500
 permalink: "/markov-chain-for-music/"
+tags:
+- 
+    name: statistics
+    style: primary
+
 ---
 
 {:refdef: style="text-align: center;"}

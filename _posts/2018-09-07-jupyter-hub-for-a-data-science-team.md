@@ -3,6 +3,11 @@ layout: post
 title:  "Jupyter Hub for a Data Science team"
 date:   2018-09-17 13:18:29 +0500
 permalink: "/jupyter-hub/"
+tags:
+- 
+  name: infrastructure
+  style: danger
+
 ---
 
 {:refdef: style="text-align: center;"}

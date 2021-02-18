@@ -1,0 +1,76 @@
+- name: Seminars - ML in Oil and Gas industry 2020
+  id: p4
+  img_src: /assets/projects/NES-seminar2020.png
+  description_less: >
+    <p>Seminars - ML in Oil and Gas industry at New Economic School, Moscow, May-June 2020</p>
+    <a href="https://github.com/subpath/NES_ML_in_Oil_n_Gas" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+  tags:
+    - 
+      name: ML # tag name.
+      style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
+    - 
+      name: seminars
+      style: info
+      
+- name: Uncanny-valley-GAN
+  id: p3
+  img_src: /assets/projects/Uncanny-valley-GAN.png
+  description_less: >
+    <p>BigGan that can generate only creepy uncanny valley looking pictures.</p>
+    <a href="https://github.com/subpath/Uncanny-valley-GAN" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+  tags:
+    - 
+      name: ML # tag name.
+      style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
+    - 
+      name: GAN
+      style: warning
+    - 
+      name: visualization
+      style: info
+
+- name: NeuroEvolution # Project name, also used as heading.
+  id: p1 # Project id. Must be unique amongst the projects.
+  img_src: /assets/projects/NeuroEvolution.png # Optional image.
+  description_less: > # Description shown at all times.
+    <p>Python package with Neuro-evelution for Neural Network hyper parameter tuning.</p> 
+    <a href="https://github.com/subpath/neuro-evolution" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://piece-data.com/genetic-algorithms-and-hyperparameters/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+  tags: # List your tag name along with their Bootsrap contextual style.
+    - 
+      name: ML # tag name.
+      style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
+    - 
+      name: PythonPackage
+      style: dark
+
+- name: Twitter Real-Time sentiment analysis
+  id: p2
+  img_src: /assets/projects/twRealTime.png
+  description_less: >
+    <p>Microservice for Twitter Real-Time data collection and sentiment analysis.</p>
+        <a href="https://github.com/subpath/twitter_sentimet_analysis_microservice" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://piece-data.com/twitter-sentiment-analysis/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+  tags:
+    - 
+      name: ML # tag name.
+      style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
+    - 
+      name: open-source
+      style: primary
+    - 
+      name: infrastructure
+      style: danger
+
+- name: ChatBot with seq2seq Neural Network
+  id: p5
+  img_src: /assets/projects/chatbot_model.png
+  description_less: >
+    <p>ChatBot with seq2seq Neural Network</p>
+    <a href="https://github.com/subpath/ChatBot" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://piece-data.com/building-chatbot-basics/" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+    
+  tags:
+    - 
+      name: ML # tag name.
+      style: success # chose from: primary, secondary, success, danger, warning, info, light, dark

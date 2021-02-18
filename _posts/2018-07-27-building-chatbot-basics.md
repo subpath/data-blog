@@ -3,6 +3,10 @@ layout: post
 title:  "Building chatbots - basics"
 date:   2018-06-29 12:00:00 +0500
 permalink: "/building-chatbot-basics/"
+tags:
+-
+  name: ML
+  style: success
 ---
 
 ## Chatbots might be the future of user interfaces.

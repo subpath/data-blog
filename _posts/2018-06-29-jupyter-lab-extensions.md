@@ -3,8 +3,16 @@ layout: post
 title:  "Jupyter Lab extensions for Data Scientist"
 date:   2018-06-29 12:00:00 +0500
 permalink: "/jupyter-lab-extensions/"
----
+tags:
+- 
+  name: infrastructure
+  style: danger
 
+---
+<<<<<<< HEAD
+=======
+
+>>>>>>> e421c2fe79b82f20a9e08d40b25ce4828ee5377b
 {:refdef: style="text-align: center;"}
 ![jupyter_logo]({{ '/assets/2018-06-29-jupyter-lab-extensions/jupyter-lab-logo.png' | relative_url }})
 {: refdef}

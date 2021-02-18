@@ -3,6 +3,13 @@ layout: post
 title:  "Building microservice for Twitter real-time sentiment analysis"
 date:   2018-06-29 12:00:00 +0500
 permalink: "/twitter-sentiment-analysis/"
+tags:
+- 
+  name: infrastructure
+  style: danger
+-
+  name: ML
+  style: success
 ---
 
 {:refdef: style="text-align: center;"}

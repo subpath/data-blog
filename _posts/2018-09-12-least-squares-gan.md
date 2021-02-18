@@ -3,7 +3,15 @@ layout: post
 title:  "Least Squares GAN"
 date:   2018-09-12 13:18:29 +0500
 permalink: "/least-squares-gan/"
+tags:
+- 
+  name: GAN
+  style: warning
+-
+  name: ML
+  style: success
 ---
+
 
 ## This week GAN of the week is a Least Squares GAN
 

@@ -3,9 +3,13 @@ layout: post
 title:  "Must-have statistical tests for any Data Scientist"
 date:   2018-09-16 13:18:29 +0500
 permalink: "/must-have-stat-tests/"
+tags:
+- 
+    name: statistics
+    style: primary
 ---
 
-Hi! Wanna share a subjective short list of statistical tests that every Data Scientist should know about. Data Science is a rapidly developing field where people are coming from different industries with backgrounds in Computer Science, Physics, Statistics, Biology. So depending on background, people can be less familiar with statistical tools.
+Hi! I wanna share a subjective short list of statistical tests that every Data Scientist should know about. Data Science is a rapidly developing field where people are coming from different industries with backgrounds in Computer Science, Physics, Statistics, Biology. So depending on background, people can be less familiar with statistical tools.
 
 ## Statistical hypothesis testing
 

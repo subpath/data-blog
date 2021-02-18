@@ -3,6 +3,11 @@ layout: post
 title:  "PostgreSQL essentials — installation and set up"
 date:   2018-05-16 13:18:29 +0500
 permalink: "/psql-essential-setup/"
+tags:
+- 
+  name: infrastructure
+  style: danger
+
 ---
 
 ## Step by step instruction for Ubuntu
