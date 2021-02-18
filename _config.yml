@@ -1,7 +1,7 @@
 title: Piece Data  # Shown in header on pages with full_logo: true
-short_logo:  PD # 🤖 # Shown in header on all pages by default unless full_logo: true is set
+short_logo:  PD  # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
-  Full-stack Data Scientist and Machine Learning engineer 
+  Blog about Data Science, Machine Learning and statistics
 baseurl: "" # The subpath of your site, e.g. /blog/
 url: "https://piece-data.com" # The base hostname & protocol for your site
 
@@ -37,3 +37,6 @@ defaults: # Recommended defaults, you may set your own
       layout: tag
       sitemap:
         priority: 0.4
+
+plugins:
+    - jekyll-seo-tag
