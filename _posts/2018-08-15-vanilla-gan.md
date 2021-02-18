@@ -3,13 +3,15 @@ layout: post
 title:  "Vanilla GAN "
 date:   2018-08-15 13:18:29 +0500
 permalink: "/vanilla-gan/"
+tags:
 - 
   name: GAN
-  style: primary
+  style: warning
 -
   name: ML
   style: success
 ---
+
 
 For the sake of introduction let’s build the simplest GAN possible using Keras and TensorFlow. But, first…
 
@@ -18,7 +20,7 @@ For the sake of introduction let’s build the simplest GAN possible using Keras
 GAN — generative adversarial network was introduced by Ian Goodfellow in 2014 and they becoming more and more popular over time. On a high level, it’s a very cool concept where you have two neural networks competing with each other. One of them is taking random noise and try to generate something similar to the input data, a so-called Generator. Another is taking fake data generated from Generator and real input and learns to distinguish the difference between them, a so-called Discriminator. So during the learning process Generator became more and more skilful in generating fake data and Discriminator became better in the classification of real and fake sets of data. By doing that we can extract important features from the data.
 
 {:refdef: style="text-align: center;"}
-![gan-flow]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-15-vanilla-gan/gan-flow.png)
+![gan-flow]({{ '/assets/2018-08-15-vanilla-gan/gan-flow.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -33,7 +35,7 @@ We are doing k-steps of Discriminator training in each step parameters changing 
 
 
 {:refdef: style="text-align: center;"}
-![formula-1]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-15-vanilla-gan/formula-1.png)
+![formula-1]({{ '/assets/2018-08-15-vanilla-gan/formula-1.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -44,7 +46,7 @@ We are doing k-steps of Discriminator training in each step parameters changing 
 Then we’re updating parameters of the generator in a direction of increasing of the logarithm of the probability that Discriminator will choose fake data instead of real.
 
 {:refdef: style="text-align: center;"}
-![formula-2]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-15-vanilla-gan/formula-2.png)
+![formula-2]({{ '/assets/2018-08-15-vanilla-gan/formula-2.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -170,7 +172,7 @@ for cnt in range(epochs):
 
 
 {:refdef: style="text-align: center;"}
-![loss]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-15-vanilla-gan/loss.png)
+![loss]({{ '/assets/2018-08-15-vanilla-gan/loss.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -182,7 +184,7 @@ for cnt in range(epochs):
 As the result, I made a classic gif. You can see how it starts from random noise and gradually learns to generate images that look like handwritten digits.
 
 {:refdef: style="text-align: center;"}
-![results]({{ site.url }}/{{ site.baseurl }}/assets/2018-08-15-vanilla-gan/results.gif)
+![results]({{ '/assets/2018-08-15-vanilla-gan/results.gif' | relative_url }})
 {: refdef}
 
 ## References:

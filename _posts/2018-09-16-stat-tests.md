@@ -33,7 +33,7 @@ In a Student’s test, we are comparing the means of two normally distributed da
 For example, we have results from group A and group B, and it’s kind of normally distributed.
 
 {:refdef: style="text-align: center;"}
-![picture-1]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-16-stat-tests/picture-1.png)
+![picture-1]({{ '/assets/2018-09-16-stat-tests/picture-1.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -62,7 +62,7 @@ U-test does a similar comparison of two distributions, but unlike t-test, it not
 
 
 {:refdef: style="text-align: center;"}
-![picture-2]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-16-stat-tests/picture-2.png)
+![picture-2]({{ '/assets/2018-09-16-stat-tests/picture-2.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}
@@ -86,7 +86,7 @@ p-value 0.0003 < 0.05, which mean we can conclude that data from group A and gro
 So far we were comparing how the average from group A is different comparing to average from group B. But what if you want to compare a variety of data in two datasets? In that case, you can use Fisher’s F-test, which can help us to calculate how dispersions are different in two distributions.
 
 {:refdef: style="text-align: center;"}
-![picture-3]({{ site.url }}/{{ site.baseurl }}/assets/2018-09-16-stat-tests/picture-3.png)
+![picture-3]({{ '/assets/2018-09-16-stat-tests/picture-3.png' | relative_url }})
 {: refdef}
 
 {:refdef: style="text-align: center;"}

@@ -6,13 +6,15 @@ permalink: "/twitter-sentiment-analysis/"
 tags:
 - 
   name: infrastructure
-  style: primary
+  style: danger
 -
   name: ML
   style: success
 ---
 
-![twitter_logo]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-12-twitter-sentiment-analysis/twitter-sentiment-logo.png)
+{:refdef: style="text-align: center;"}
+![twitter_logo]({{ '/assets/2018-07-12-twitter-sentiment-analysis/twitter-sentiment-logo.png' | relative_url }})
+{: refdef}
 
 ## Building microservice for Twitter Real-time data collection and sentiment analysis.
 
@@ -21,8 +23,10 @@ First of all, I would like to point out that the skill of building MVP and micro
 There is a famous Venn diagram made by [Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) where hacker skills refer to programming skills. So according to this diagram programming skills are important for Data Science in general and for a Data Scientist particularly.
 
 {:refdef: style="text-align: center;"}
-![venn-diagram]({{ site.url }}/{{ site.baseurl }}/assets/2018-07-12-twitter-sentiment-analysis/venn-diagram.png)
+![venn-diagram]({{ '/assets/2018-07-12-twitter-sentiment-analysis/venn-diagram.png' | relative_url }})
 {: refdef}
+
+
 
 ## Right, so programming skills are important, what next?
 

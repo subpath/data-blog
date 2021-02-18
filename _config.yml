@@ -1,9 +1,9 @@
-title: Data Blog # Shown in header on pages with full_logo: true
-short_logo:  Data Blog # 🤖 # Shown in header on all pages by default unless full_logo: true is set
+title: Piece Data  # Shown in header on pages with full_logo: true
+short_logo:  PD # 🤖 # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   Full-stack Data Scientist and Machine Learning engineer 
-baseurl: "/data-blog" # The subpath of your site, e.g. /blog/
-url: "https://subpath.github.io" # The base hostname & protocol for your site
+baseurl: "" # The subpath of your site, e.g. /blog/
+url: "https://piece-data.com" # The base hostname & protocol for your site
 
 author:
   name: Alexander Osipenko
@@ -12,7 +12,8 @@ author:
   email: mr.aosipenko@gmail.com # Used for email icon on the top right
   homepage: https://github.com/subpath # This links to your name in post meta
 
-g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
+g_track_id: G-20LE19S0VY
+disqus_name: alex-data-blog
 
 markdown: kramdown
 

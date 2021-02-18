@@ -6,13 +6,15 @@ permalink: "/psql-essential-setup/"
 tags:
 - 
   name: infrastructure
-  style: primary
+  style: danger
 
 ---
 
 ## Step by step instruction for Ubuntu
+{:refdef: style="text-align: center;"}
+![psql_logo]({{ '/assets/2018-05-16-psql-essential-setup/psql_logo.png' | relative_url }})
+{: refdef}
 
-![psql_logo]({{ site.url }}/{{ site.baseurl }}/assets/2018-05-16-psql-essential-setup/psql_logo.png)
 On my daily job from time to time I face the need to install PostgreSQL on some remote server and then restore database from backup file. This case appears when I need to test something (ML-pipeline for instance) in save environment without affecting production database. Surprisingly I could not find comprehensive instruction where all required installation and setting up steps were in one place. So I made my own instruction.
 
 ## Installation

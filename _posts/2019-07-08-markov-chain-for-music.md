@@ -3,10 +3,17 @@ layout: post
 title:  "Markov Chain for music generation"
 date:   2019-07-08 13:18:29 +0500
 permalink: "/markov-chain-for-music/"
+tags:
+- 
+    name: statistics
+    style: primary
+
 ---
+
 {:refdef: style="text-align: center;"}
-![head]({{ site.url }}/{{ site.baseurl }}/assets/2019-07-08-markov-chain-for-music/head.jpeg)
+![head]({{ '/assets/2019-07-08-markov-chain-for-music/head.jpeg' | relative_url }})
 {: refdef}
+
 
 From this article, you will learn about the Markov Chain model and how it can be applied for the music generation.
 
@@ -80,7 +87,7 @@ If we normalize it, we’ll get probabilities:
 This often can be interpreted in the form of a graph:
 
 {:refdef: style="text-align: center;"}
-![graph]({{ site.url }}/{{ site.baseurl }}/assets/2019-07-08-markov-chain-for-music/graph.png)
+![graph]({{ site.url }}/assets/2019-07-08-markov-chain-for-music/graph.png)
 {: refdef}
 
 {:refdef: style="text-align: center;"}
