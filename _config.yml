@@ -8,7 +8,7 @@ url: "https://piece-data.com" # The base hostname & protocol for your site
 author:
   name: Alexander Osipenko
   github: subpath # GitHub username, used for GitHub icon on the top right
-  linkedin: subpath # Your LinkedIn profile url name, used for LinkedIn icon on the top right
+  linkedin: aosipenko # Your LinkedIn profile url name, used for LinkedIn icon on the top right
   email: mr.aosipenko@gmail.com # Used for email icon on the top right
   homepage: https://github.com/subpath # This links to your name in post meta
 
