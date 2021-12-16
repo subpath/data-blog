@@ -7,6 +7,9 @@ tags:
 - 
     name: statistics
     style: primary
+-
+  name: ML
+  style: success
     
 ---
 {:refdef: style="text-align: center;"}
@@ -75,4 +78,4 @@ Data Science often can be tricky, there are many things that can mislead you dur
 * Use statistical tests to compare models performance
 
 -----
-Medium link: https://towardsdatascience.com/how-to-test-your-ml-models-from-hypothesis-to-production-7553430382a9
+Medium link: [https://towardsdatascience.com/how-to-test-your-ml-models-from-hypothesis-to-production-7553430382a9](https://towardsdatascience.com/how-to-test-your-ml-models-from-hypothesis-to-production-7553430382a9)
