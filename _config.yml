@@ -1,5 +1,5 @@
-title: Piece Data  # Shown in header on pages with full_logo: true
-short_logo:  PD  # Shown in header on all pages by default unless full_logo: true is set
+title: Piece Data # Shown in header on pages with full_logo: true
+short_logo: PD # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   Blog about Data Science, Machine Learning and statistics
 baseurl: "" # The subpath of your site, e.g. /blog/
@@ -18,20 +18,17 @@ disqus_name: alex-data-blog
 markdown: kramdown
 
 defaults: # Recommended defaults, you may set your own
-  -
-    scope:
+  - scope:
       path: _posts
     values:
       comments: true
-  -
-    scope:
+  - scope:
       path: pages/redirects
     values:
       layout: redirect
       index: false
       listed: false
-  -
-    scope:
+  - scope:
       path: pages/tags
     values:
       layout: tag
@@ -39,4 +36,4 @@ defaults: # Recommended defaults, you may set your own
         priority: 0.4
 
 plugins:
-    - jekyll-seo-tag
+  - jekyll-seo-tag
