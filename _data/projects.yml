@@ -6,9 +6,13 @@
     <a href="https://github.com/subpath/scala-autocomplete-api" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
   tags:
     - name: ML # tag name.
-      style: success # chose from: prizmary, secondary, success, danger, warning, info, light, darks
+      style: success # chose from: primary, secondary, success, danger, warning, info, light, darks
     - name: open-source
       style: primary
+    - name: autocomplete
+      style: warning
+    - name: 2022
+      style: secondary
 
 - name: Uncanny-valley-GAN
   id: p4
@@ -20,9 +24,9 @@
     - name: ML # tag name.
       style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
     - name: GAN
-      style: warning
-    - name: visualization
       style: info
+    - name: 2020
+      style: secondary
 
 - name: ChatBot with seq2seq Neural Network
   id: p1
@@ -35,6 +39,8 @@
   tags:
     - name: ML # tag name.
       style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
+    - name: 2018
+      style: secondary
 
 - name: Fastest autocomplete with Rust 🦀
   id: p7
@@ -47,6 +53,10 @@
       style: success # chose from: prizmary, secondary, success, danger, warning, info, light, darks
     - name: open-source
       style: primary
+    - name: 2022
+      style: secondary
+    - name: autocomplete
+      style: warning
 
 - name: NeuroEvolution # Project name, also used as heading.
   id: p3 # Project id. Must be unique amongst the projects.
@@ -60,6 +70,8 @@
       style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
     - name: PythonPackage
       style: dark
+    - name: 2018
+      style: secondary
 
 - name: Twitter Real-Time sentiment analysis
   id: p2
@@ -75,6 +87,8 @@
       style: primary
     - name: infrastructure
       style: danger
+    - name: 2019
+      style: secondary
 
 - name: pystrsim
   id: p6
@@ -88,6 +102,8 @@
       style: success # chose from: prizmary, secondary, success, danger, warning, info, light, darks
     - name: open-source
       style: primary
+    - name: 2022
+      style: secondary
 
 - name: Seminars - ML in Oil and Gas industry 2020
   id: p5
@@ -100,3 +116,5 @@
       style: success # chose from: primary, secondary, success, danger, warning, info, light, dark
     - name: seminars
       style: info
+    - name: 2020
+      style: secondary
