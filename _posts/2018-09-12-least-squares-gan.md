@@ -4,12 +4,12 @@ title:  "Least Squares GAN"
 date:   2018-09-12 13:18:29 +0500
 permalink: "/least-squares-gan/"
 tags:
-- 
-  name: GAN
+- name: GAN
   style: warning
--
-  name: ML
+- name: ML
   style: success
+- name: 2018
+  style: secondary
 ---
 
 

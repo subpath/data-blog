@@ -4,12 +4,12 @@ title:  "Vanilla GAN "
 date:   2018-08-15 13:18:29 +0500
 permalink: "/vanilla-gan/"
 tags:
-- 
-  name: GAN
+- name: GAN
   style: warning
--
-  name: ML
+- name: ML
   style: success
+- name: 2018
+  style: secondary
 ---
 
 

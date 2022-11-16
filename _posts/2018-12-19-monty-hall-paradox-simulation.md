@@ -4,9 +4,10 @@ title:  "Monty Hall’s paradox — solve it by simulation!"
 date:   2018-12-19 13:18:29 +0500
 permalink: "/monty-hall-paradox-simulation/"
 tags:
-- 
-    name: statistics
-    style: primary
+- name: statistics
+  style: primary
+- name: 2018
+  style: secondary
 ---
 
 {:refdef: style="text-align: center;"}

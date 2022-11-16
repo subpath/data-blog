@@ -4,9 +4,10 @@ title:  "Gale–Shapley algorithm simply explained"
 date:   2019-05-27 13:18:29 +0500
 permalink: "/gale-shapley/"
 tags:
-- 
-    name: GameTheory
-    style: info
+- name: GameTheory
+  style: info
+- name: 2019
+  style: secondary
 ---
 
 

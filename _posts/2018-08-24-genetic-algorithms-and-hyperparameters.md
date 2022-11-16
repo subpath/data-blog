@@ -4,9 +4,10 @@ title:  "Genetic algorithms and hyperparameters"
 date:   2018-08-24 12:00:00 +0500
 permalink: "/genetic-algorithms-and-hyperparameters/"
 tags:
--
-  name: ML
+- name: ML
   style: success
+- name: 2018
+  style: secondary
 ---
 
 Hi! Do you like [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm) as much as I do? I hope so!

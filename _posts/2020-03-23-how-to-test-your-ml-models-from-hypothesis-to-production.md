@@ -4,13 +4,12 @@ title:  "How to test your ML models from hypothesis to production"
 date:   2020-03-23 13:18:29 +0500
 permalink: "/ml-from-hypothesis-to-production/"
 tags:
-- 
-    name: statistics
-    style: primary
--
-  name: ML
+- name: statistics
+  style: primary
+- name: ML
   style: success
-    
+- name: 2020
+  style: secondary
 ---
 {:refdef: style="text-align: center;"}
 ![head]({{ '/assets/2020-03-23-how-to-test-your-ml-models-from-hypothesis-to-production/head.png' | relative_url }})

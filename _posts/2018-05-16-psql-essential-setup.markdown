@@ -4,10 +4,10 @@ title:  "PostgreSQL essentials — installation and set up"
 date:   2018-05-16 13:18:29 +0500
 permalink: "/psql-essential-setup/"
 tags:
-- 
-  name: infrastructure
+- name: infrastructure
   style: danger
-
+- name: 2018
+  style: secondary
 ---
 
 ## Step by step instruction for Ubuntu

@@ -4,15 +4,14 @@ title:  "Managing HUGE Datasets with Scala Spark"
 date:   2021-11-03 13:18:29 +0500
 permalink: "/managing-huge-datasets-with-scala-spark/"
 tags:
-- 
-    name: scala
-    style: primary
-- 
-    name: spark
-    style: info
--
-  name: ML
+- name: scala
+  style: primary
+- name: spark
+  style: info
+- name: ML
   style: success
+- name: 2021
+  style: secondary
     
 ---
 {:refdef: style="text-align: center;"}
