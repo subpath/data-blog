@@ -15,7 +15,7 @@ This blog is a place where I can dump my ideas and past experiences.
 
 I'm always open to interesting proposals and collaborations.  You can find my latest CV [here]({{ site.url }}/resume) or on my [Linkedin page](https://www.linkedin.com/in/aosipenko/).
 
-All posts are made with a Creative Commons license. Feel free to share it whenever you like. Would be cool if you would also reference me :)  
+All posts are made with a Creative Commons license. Feel free to share it whenever you like. It would be fantastic if you would also reference me :)  
 
 Cheers!
 
