@@ -3,7 +3,7 @@ short_logo: PD # Shown in header on all pages by default unless full_logo: true 
 description: > # The description for your site
   Blog about Data Science, Machine Learning and statistics
 baseurl: "" # The subpath of your site, e.g. /blog/
-url: "https://piece-data.com" # The base hostname & protocol for your site
+url: "https://subpath.github.io/data-blog" # The base hostname & protocol for your site
 
 author:
   name: Alexander Osipenko
