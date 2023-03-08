@@ -20,7 +20,7 @@ All posts are made with a Creative Commons license. Feel free to share it whenev
 Cheers!
 
 <p align="center">
-<img alt="nyan cat" src="https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif"  />
+<img alt="cat" src="https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif"  />
 </p>
 
 <br>
