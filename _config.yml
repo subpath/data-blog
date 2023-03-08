@@ -2,8 +2,8 @@ title: Piece Data # Shown in header on pages with full_logo: true
 short_logo: PD # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   Blog about Data Science, Machine Learning and statistics
-baseurl: "data-blog" # The subpath of your site, e.g. /blog/
-url: "https://subpath.github.io/" # The base hostname & protocol for your site
+baseurl: "" # The subpath of your site, e.g. /blog/
+url: "https://subpath.github.io/data-blog" # The base hostname & protocol for your site
 
 author:
   name: Alexander Osipenko
